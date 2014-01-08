@@ -2,4 +2,5 @@
 /*.classpath
 /*.tomcatplugin
 .settings/
+bin/
 work/*
