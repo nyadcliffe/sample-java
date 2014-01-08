@@ -1,0 +1,5 @@
+/*.project
+/*.classpath
+/*.tomcatplugin
+.settings/
+work/*
