@@ -10,7 +10,7 @@ public class GeoCode {
     public static void main(String[] args) {
         try {
             String path = "http://maps.googleapis.com/maps/api/geocode/json?address="
-                    +java.net.URLEncoder.encode("東京都八王子市南大沢4-10-10", "UTF-8")+"&sensor=true&language=ja";
+                    +java.net.URLEncoder.encode("東京都八王子市", "UTF-8")+"&sensor=true&language=ja";
 //            String path = "http://maps.googleapis.com/maps/api/geocode/json?latlng=40.70594140,-74.0088760&sensor=true&language=ja";
             HttpURLConnection httpURLConnection = makeConnection(path);
             httpURLConnection.connect();
